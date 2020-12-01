@@ -7,10 +7,11 @@ import datetime;
 
 year = 2020
 month = 12
-day = 1
+day = 21
 
 def test_code():
-    assert 0 > 1, "error"
+    assert main.product3Plus1(2,2,2) == 9, "product3Plus1(2, 2, 2) == 9 failed"
+    assert main.product3Plus1(3,4,5) == 61, "product3Plus1(3, 4, 5) == 61 failed"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"
