@@ -1,7 +1,7 @@
 # **Product3Plus1**  
 
 ## **Assignment Description**  
-Create a function called product3Plus1() that returns the product of a given int x, a given int y, and a given int z, plus 1. X times Y times Z plus 1.
+Create a function called product3Plus1() that returns the product of three given variables x, y, and z, plus 1. X times Y times Z plus 1.
 
 ## **Examples**  
 >product3Plus1(2,2,2)  
