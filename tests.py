@@ -5,9 +5,9 @@
 import main;
 import datetime;
 
-year = 2021
-month = 12
-day = 30
+year = 2022
+month = 9
+day = 22
 
 def test_code():
     assert main.product3Plus1(2,2,2) == 9, "product3Plus1(2, 2, 2) == 9 failed"
